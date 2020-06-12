@@ -3,7 +3,7 @@ import React, {useState, Fragment} from 'react';
 import UserTable from "../components/tables/UserTable";
 import AddUserForm from "../components/forms/AddUserForm";
 import EditUserForm from "../components/forms/EditUserForm";
-import {UserData} from '../faker/MockDataFaker';
+import {UserData} from '../fakers/MockDataFaker';
 const DemoCrud = () => {
   const userData = UserData;
   const [users, setUsers] = useState(userData);
