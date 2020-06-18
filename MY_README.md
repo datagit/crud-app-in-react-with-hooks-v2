@@ -13,7 +13,11 @@ yarn start
 yarn add -D @testing-library/jest-dom
 yarn run test
 yarn start
+```
 yarn build
+yarn global add serve
+serve -s build
+```
 #### run code after build in env production
 cd build
 php -S localhost:8000
