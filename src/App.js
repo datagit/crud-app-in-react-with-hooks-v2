@@ -12,6 +12,7 @@ import Counter2 from "./components/Counter2";
 import DemoCrud from "./components/DemoCrud";
 import SearchResults from "./components/SearchResults";
 import SearchResults2 from "./components/SearchResults2";
+import UserList from "./components/UserList";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
                   <Route path='/count2' component={Counter2}/>
                   <Route path='/search-result' component={SearchResults}/>
                   <Route path='/search-result-2' component={SearchResults2}/>
+                  <Route path='/user-list' component={UserList}/>
               </Switch>
               <hr />
               <h1>MENU</h1>
@@ -45,6 +47,9 @@ function App() {
                   </li>
                   <li>
                       <Link to="/search-result-2" className='button'>SearchResults2 + click event + call asyn api from custom Hooks</Link>
+                  </li>
+                  <li>
+                      <Link to="/user-list" className='button'>user-list</Link>
                   </li>
               </ul>
           </div>
